@@ -1,0 +1,10 @@
+g=int(input('total gold coins'))
+x=int(input('ben share% :'))
+y=int(input('black beard sahre % :'))
+z=int((x/100)*g)
+d=int(g-z)
+k=int((y/100)*d)
+p=(((100-y)/100)*d)/3
+print(int(z))
+print(int(k))
+print(int(p))
